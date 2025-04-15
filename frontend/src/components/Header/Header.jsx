@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useContext,useState} from 'react'
 import './Header.css'
 
 const Header = () => {
@@ -7,7 +7,7 @@ const Header = () => {
         <div className="header-contents">
             <h2>Order your favourite food here</h2>
             <p>Craving something delicious? Your favorites are just a click away!</p>
-            <button>View Menu</button>
+            <a href="#explore-menu"><button onClick={()=>setMenu('menu')}>View Menu</button></a>
         </div>
     </div>
   )

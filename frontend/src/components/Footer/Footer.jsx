@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={assets.logo}height="100" alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum in, beatae dolorem non optio cupiditate, quam sunt dicta dolores minima exercitationem ducimus totam aut asperiores inventore harum laudantium. Distinctio, libero.</p>
+                 <p>Planioz is your go-to food delivery partner, bringing delicious meals from local restaurants straight to your doorstep. Whether you're craving a quick snack, a hearty meal, or a sweet dessert, Planioz makes it easy and convenient.</p>
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.twitter_icon} alt="" />
@@ -31,7 +31,6 @@ const Footer = () => {
                     <li>ankitgp555@gmail.com</li>
                 </ul>
             </div>
-           
         </div>
         <hr />
         <p className="footer-copyright">
